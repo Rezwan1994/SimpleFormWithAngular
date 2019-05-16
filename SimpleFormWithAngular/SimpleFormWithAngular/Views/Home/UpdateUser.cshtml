@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "UpdateUsers";
+}
+
+<h2>Update Users</h2>
+<div class="form-horizontal" ng-app="Homeapp" ng-controller="HomeController" data-ng-init="loadrecord(@Request.QueryString["id"])">
+    <h4>User</h4>
+    <hr />
+    <span>id=@Request.QueryString["id"]</span>
+    <div class="form-group">
+        <span>Name</span>
+        <div class="col-md-10">
+            <input type="text"  ng-model="user.Name" class="form-control" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <span>Email</span>
+        <div class="col-md-10">
+            <input type="text"  ng-model="user.Email" class="form-control" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <span>PhoneNo</span>
+        <div class="col-md-10">
+            <input type="text" ng-model="user.PhoneNo" class="form-control" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <span>Company</span>
+        <div class="col-md-10">
+            <input type="text" ng-model="user.Company" class="form-control" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <span>Designation</span>
+        <div class="col-md-10">
+            <input type="text" ng-model="user.Designation" class="form-control" />
+
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="button" value="{{btntext}}" ng-click="savedata()" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+<script src="~/Content/Scripts/angular.min.js"></script>
+<script src="~/Content/Scripts/HomeAngular.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+
+

@@ -1,0 +1,11 @@
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SFA.Facade.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SFA.Facade.pdb
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SFA.Repository.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SimpleFormLibrary.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\EntityFramework.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SFA.Repository.pdb
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\SimpleFormLibrary.pdb
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\bin\Debug\EntityFramework.xml
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\obj\Debug\SFA.Facade.csprojResolveAssemblyReference.cache
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\obj\Debug\SFA.Facade.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Facade\obj\Debug\SFA.Facade.pdb

@@ -1,0 +1,12 @@
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\SFA.Repository.dll.config
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\SFA.Repository.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\SFA.Repository.pdb
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\EntityFramework.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\SimpleFormLibrary.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\SimpleFormLibrary.pdb
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\EntityFramework.xml
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\obj\Debug\SFA.Repository.csprojResolveAssemblyReference.cache
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\obj\Debug\SFA.Repository.dll
+C:\Users\rezwa\onedrive\documents\visual studio 2015\Projects\SimpleFormWithAngular\SFA.Repository\obj\Debug\SFA.Repository.pdb

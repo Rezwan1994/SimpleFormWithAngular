@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "UserList";
+}
+
+<h2>UserList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddUsers")
+</p>
+
+    <div ng-app="Homeapp" ng-controller="HomeController">
+        <table class="table">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Email
+                </th>
+                <th>
+                    Phone No
+                </th>
+                <th>
+                    Company
+                </th>
+                <th>
+                    Designation
+                </th>
+                <th></th>
+            </tr>
+            <tr ng-repeat="e in record">
+                <td>
+                    {{e.Name}}
+                </td>
+                <td>
+                    {{e.Email}}
+                </td>
+                <td>
+                    {{e.PhoneNo}}
+                </td>
+                <td>
+                    {{e.Company}}
+                </td>
+                <td>
+                    {{e.Designation}}
+                </td>
+                <td>
+                    <a href="/Home/AddUsers?id={{e.Id}}">Update</a>|
+                    <a ng-click="deleterecord(e.Id)">Delate</a>
+                   
+                </td>
+            </tr>
+
+
+        </table>
+    </div>
+
+<script src="~/Content/Scripts/angular.min.js"></script>
+<script src="~/Content/Scripts/HomeAngular.js"></script>

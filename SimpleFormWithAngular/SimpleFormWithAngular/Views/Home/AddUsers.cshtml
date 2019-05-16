@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "AddUsers";
+}
+<style>
+    .Cname {
+        float:left;
+        width:20%;
+    }
+</style>
+<h2>AddUsers</h2>
+    <div class="form-horizontal" ng-app="Homeapp" ng-controller="HomeController" data-ng-init="loadrecord(@Request.QueryString["id"])">
+        <h4>User</h4>
+        <hr />
+      
+        <div class="form-group">
+           <label class="Cname">Name</label>
+            <div class="col-md-10">
+                <input type="text"  ng-model="user.Name" class="form-control"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="Cname">Email</label>
+            <div class="col-md-10">
+                <input type="text"  ng-model="user.Email" class="form-control" />
+               
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="Cname">PhoneNo</label>
+            <div class="col-md-10">
+                <input type="text"  ng-model="user.PhoneNo" class="form-control" />
+               
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="Cname">Company</label>
+            <div class="col-md-10">
+                <input type="text"  ng-model="user.Company" class="form-control" />
+               
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="Cname">Designation</label>
+            <div class="col-md-10">
+                <input type="text"  ng-model="user.Designation" class="form-control" />
+              
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" ng-click="savedata()" class="btn btn-default" value="{{btntext}}"/>
+            </div>
+        </div>
+    </div>
+
+<div>
+    <a href="UserList">Back to List</a>
+</div>
+<script src="~/Content/Scripts/angular.min.js"></script>
+<script src="~/Content/Scripts/HomeAngular.js"></script>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
